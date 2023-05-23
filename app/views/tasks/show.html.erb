@@ -1,0 +1,6 @@
+<h1>Your Task:</h1>
+<%= link_to 'EDIT THIS TASK', edit_task_path(@task) %>
+<h4><%= @task.title %></h4>
+<h5><%= @task.details %></h5>
+<h5>done? <%= @task.completed%></h5>
+<%= link_to "Back to all tasks", root_path %>
